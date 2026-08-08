@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+    All rights reserved.
+    Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+
+<configs>
+    <config>
+        <soc_id>636</soc_id>
+        <items>
+            <item>
+                <name>DEFAULT_CONF</name>
+                <rules>
+                    <rule>PAUSE-CPU7-LOW</rule>
+                </rules>
+            </item>
+
+            <item>
+                <name>GAME_HKRPG_CONF</name>
+                <packages>
+                    <package>com.miHoYo.hkrpg</package>
+                </packages>
+                <rules>
+                    <rule>HKRPG-FPS-LCORE</rule>
+                    <rule>HKRPG-FPS-MCORE</rule>
+                    <rule>HKRPG-FPS-GPU</rule>
+                </rules>
+            </item>
+
+            <item>
+                <name>GAME_YUANSHEN_CONF</name>
+                <packages>
+                    <package>com.miHoYo.Yuanshen</package>
+                </packages>
+                <rules>
+                    <rule>MODEM-NSP-MONITOR</rule>
+                </rules>
+            </item>
+
+            <item>
+                <name>ANTUTU_CONF</name>
+                <packages>
+                    <package>com.antutu.ABenchMark</package>
+                    <package>com.antutu.benchmark.full</package>
+                </packages>
+                <rules>
+                    <rule>SS-ANTUTU-GPU</rule>
+                    <rule>SS-ANTUTU-LCORE</rule>
+                    <rule>SS-ANTUTU-MCORE</rule>
+                </rules>
+            </item>
+
+            <item>
+                <name>GFX_CONF</name>
+                <packages>
+                    <package>net.kishonti.gfxbench.vulkan.v50000.corporate</package>
+                    <package>net.kishonti.gfxbench.v50100.corporate</package>
+                </packages>
+                <rules>
+                    <rule>SS-GFX-GPU</rule>
+                    <rule>SS-GFX-LCORE</rule>
+                    <rule>SS-GFX-MCORE</rule>
+                </rules>
+            </item>
+        </items>
+    </config>
+
+    <config>
+        <soc_id>640</soc_id>
+        <items>
+            <item>
+                <name>DEFAULT_CONF</name>
+                <rules>
+                    <rule>PAUSE-CPU7-LOW</rule>
+                </rules>
+            </item>
+
+            <item>
+                <name>GAME_HKRPG_CONF</name>
+                <packages>
+                    <package>com.miHoYo.hkrpg</package>
+                </packages>
+                <rules>
+                    <rule>HKRPG-FPS-LCORE</rule>
+                    <rule>HKRPG-FPS-MCORE</rule>
+                    <rule>HKRPG-FPS-GPU</rule>
+                </rules>
+            </item>
+
+            <item>
+                <name>GAME_YUANSHEN_CONF</name>
+                <packages>
+                    <package>com.miHoYo.Yuanshen</package>
+                </packages>
+                <rules>
+                    <rule>MODEM-NSP-MONITOR</rule>
+                </rules>
+            </item>
+
+            <item>
+                <name>ANTUTU_CONF</name>
+                <packages>
+                    <package>com.antutu.ABenchMark</package>
+                    <package>com.antutu.benchmark.full</package>
+                </packages>
+                <rules>
+                    <rule>SS-ANTUTU-GPU</rule>
+                    <rule>SS-ANTUTU-LCORE</rule>
+                    <rule>SS-ANTUTU-MCORE</rule>
+                </rules>
+            </item>
+
+            <item>
+                <name>GFX_CONF</name>
+                <packages>
+                    <package>net.kishonti.gfxbench.vulkan.v50000.corporate</package>
+                    <package>net.kishonti.gfxbench.v50100.corporate</package>
+                </packages>
+                <rules>
+                    <rule>SS-GFX-GPU</rule>
+                    <rule>SS-GFX-LCORE</rule>
+                    <rule>SS-GFX-MCORE</rule>
+                </rules>
+            </item>
+        </items>
+    </config>
+</configs>
