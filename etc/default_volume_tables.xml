@@ -49,9 +49,22 @@
     <reference name="DEFAULT_DEVICE_CATEGORY_SPEAKER_VOLUME_CURVE">
     <!-- Default is Speaker Media Volume Curve -->
         <point>1,-5800</point>
-        <point>20,-4000</point>
-        <point>60,-1700</point>
-        <point>100,0</point>
+        <point>7,-3833</point>
+        <point>13,-3041</point>
+        <point>20,-2691</point>
+        <point>26,-2200</point>
+        <point>32,-1716</point>
+        <point>38,-1421</point>
+        <point>44,-1050</point>
+        <point>51,-830</point>
+        <point>57,-654</point>
+        <point>63,-514</point>
+        <point>69,-394</point>
+        <point>75,-278</point>
+        <point>81,-182</point>
+        <point>88,-94</point>
+        <point>94,-39</point>
+        <point>99,0</point>
     </reference>
     <reference name="DEFAULT_DEVICE_CATEGORY_EARPIECE_VOLUME_CURVE">
     <!--Default Volume Curve -->
